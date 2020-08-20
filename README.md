@@ -57,3 +57,8 @@ Games:
 - http://localhost:8000/blm/api/games/team-player-stats/<int:game_id>
 - http://localhost:8000/blm/api/games/top-game-points-scorer/<int:game_id>
 
+ex: if you want to view the 90th percentile players in a team based on their scoring ability use
+- http://localhost:8000/blm/api/teams/best-team-players/<int:team_id>/<int:percentile>
+where <int:team_id> is the team id like 1,2,3,etc. any positive integer value and <int:percentile> is the percentile mark whih can be 10,50,90,etc. any positive integer value.
+so to see the players in the 90th percentile of team 2 we can run the service as :
+http://localhost:8000/blm/api/teams/best-team-players/2/90
