@@ -1,4 +1,4 @@
-#Instalation
+# Instalation
 
 1) <DEV_FOLDER_PATH>/mkdir matific
 2) <DEV_FOLDER_PATH>/cd matific
@@ -9,14 +9,8 @@
 7)  $<DEV_FOLDER_PATH>/matific/src/blm/.\Scripts\activate
 8) pip install -r requirements.txt
 9) Update your settings.py in blm foldr to reflect the following:
-INSTALLED_APPS = [
-    ...
-    'rest_framework',
-    'postings'
-]
 
-
-# ./blm/settings.py
+# .../blm/settings.py
 ...
 INSTALLED_APPS = [
     ...
