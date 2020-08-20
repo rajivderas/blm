@@ -42,8 +42,8 @@ REST_FRAMEWORK = {
 note -by using admin login to the system you can view the sample data generated from init_blm_data.py command file and get valid values from their required to run following services.
 
 Players:
-- http://localhost:8000/blm/api/players/player-stats/<int:player_id>
-- http://localhost:8000/blm/api/players/player-details/<int:player_id>
+- http://localhost:8000/blm/api/players/player-stats/"<int:player_id>"
+- http://localhost:8000/blm/api/players/player-details/'<int:player_id>'
 
 Teams:
 - http://localhost:8000/blm/api/teams/team-players/<int:team_id>
