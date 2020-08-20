@@ -10,7 +10,7 @@
 8) pip install -r requirements.txt
 9) Update your settings.py in blm foldr to reflect the following:
 
-# .../blm/settings.py
+# add the following entries to the .../blm/settings.py
 ...
 INSTALLED_APPS = [
     ...
